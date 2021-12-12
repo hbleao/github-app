@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile should be able to render snapshot 1`] = `
+<div
+  className="profile"
+>
+  <img
+    alt="Avatar user"
+    className="profile__avatar is-md"
+    src="https://avatars.githubusercontent.com/u/35975531?v=4"
+  />
+  <div>
+    <h2
+      className="profile__title is-md"
+    >
+      Jhon doe
+    </h2>
+    <p
+      className="profile__bio"
+    >
+      Frontend developer
+    </p>
+  </div>
+</div>
+`;

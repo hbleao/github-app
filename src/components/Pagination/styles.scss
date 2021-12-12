@@ -1,0 +1,26 @@
+@import '../../styles/sass/variables';
+
+.pagination {
+  max-width: max-content;
+  display: flex;
+  list-style: none;
+  padding: 8px 24px;
+  border-radius: 16px;
+  margin: 32px auto 0;
+
+  &__item {
+    padding: 8px 16px;
+    color: $black;
+
+    &.active {
+      background-color: $green;
+      border-radius: 8px;
+      color: $white;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: inherit;
+  }
+}

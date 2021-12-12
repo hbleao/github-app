@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepositoryInfo should be able to render snapshot 1`] = `
+<div
+  className="RepositoryInfo"
+>
+  <p
+    className="RepositoryInfo__value"
+  >
+    1808
+  </p>
+  <span
+    className="RepositoryInfo__description"
+  >
+    Stars
+  </span>
+</div>
+`;

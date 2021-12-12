@@ -1,0 +1,15 @@
+.detail {
+
+  &__repoInformation {
+    display: flex;
+    margin-top: 40px;
+
+    > div {
+      margin-right: 80px;
+    }
+  }
+
+  &__repositories {
+    margin-top: 80px;
+  }
+}

@@ -1,0 +1,19 @@
+@import '../../styles/sass/variables';
+
+.RepositoryInfo {
+
+  &__value {
+    font-size: 36px;
+    line-height: 42px;
+    color: $title;
+    font-weight: 700;
+  }
+
+  &__description {
+    display: block;
+    font-size: 20px;
+    line-height: 23px;
+    color: $text;
+    margin-top: 8px;
+  }
+}

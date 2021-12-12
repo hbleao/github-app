@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should be able to render snapshot 1`] = `
+<button
+  className="button is-green"
+  onClick={[MockFunction]}
+  type="button"
+>
+  Click!
+</button>
+`;

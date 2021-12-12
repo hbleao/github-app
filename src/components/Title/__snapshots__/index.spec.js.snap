@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title should be able to render snapshot 1`] = `
+<h1
+  className="title "
+>
+  Github app
+</h1>
+`;

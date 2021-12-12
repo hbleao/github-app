@@ -1,0 +1,60 @@
+@import '../../styles/sass/_variables.scss';
+
+.profile {
+  display: flex;
+  align-items: center;
+
+  &__avatar {
+    border-radius: 50%;
+    margin-right: 16px;
+
+    &.is-sm {
+      width: 83px;
+      height: 83px;
+    }
+
+    &.is-md {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
+  &__link {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    color: $title;
+    text-decoration: none;
+  }
+
+  &__title {
+    font-weight: 600;
+    margin-bottom: 4px;
+    text-align: left;
+
+    &.is-sm {
+      font-size: 24px;
+      line-height: 28px;
+    }
+
+    &.is-md {
+      font-size: 36px;
+      line-height: 41px;
+    }
+  }
+
+  &__bio {
+    font-weight: 400;
+    color: $text;
+
+    &.is-sm {
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    &.is-md {
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+}

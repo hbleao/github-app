@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputSearch should be able to render snapshot 1`] = `
+<div
+  className="inputSearch"
+>
+  <input
+    className="inputSearch__field is-error"
+    onChange={[Function]}
+    placeholder="insert your github username"
+    type="search"
+    value="value"
+  />
+  <button
+    className="button is-green"
+    onClick={[Function]}
+    type="button"
+  >
+    Pesquisar
+  </button>
+  <span
+    className="inputSearch__error-message"
+  >
+    O usuário 
+    value
+     não existe!
+  </span>
+</div>
+`;

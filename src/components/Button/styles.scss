@@ -1,0 +1,19 @@
+@import '../../styles/sass/variables.scss';
+
+.button {
+  border: none;
+  padding: 16px 24px;
+
+  &.is-green {
+    background-color: $green;
+    color: $white;
+    font-weight: 600;
+  }
+
+  &.is-purple {
+    background-color: $purple;
+    color: $white;
+    font-weight: 600;
+  }
+}
+

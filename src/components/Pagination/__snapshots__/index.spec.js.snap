@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination should be able to render snapshot 1`] = `
+<ul
+  className="pagination"
+>
+  <li
+    className="pagination__item "
+  >
+    <a
+      className="pagination__link"
+      href=""
+      onClick={[Function]}
+    >
+      1
+    </a>
+  </li>
+  <li
+    className="pagination__item active"
+  >
+    <a
+      className="pagination__link"
+      href=""
+      onClick={[Function]}
+    >
+      2
+    </a>
+  </li>
+  <li
+    className="pagination__item "
+  >
+    <a
+      className="pagination__link"
+      href=""
+      onClick={[Function]}
+    >
+      3
+    </a>
+  </li>
+  <li
+    className="pagination__item "
+  >
+    <span
+      className="pagination__link"
+    >
+      ...
+    </span>
+  </li>
+  <li
+    className="pagination__item "
+  >
+    <a
+      className="pagination__link"
+      href=""
+      onClick={[Function]}
+    >
+      10
+    </a>
+  </li>
+</ul>
+`;
